@@ -1,0 +1,10 @@
+13:28:04 **** Incremental Build of configuration Debug for project Prototype_Covid ****
+make -j8 all 
+arm-none-eabi-size   Prototype_Covid.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17332	    120	   1880	  19332	   4b84	Prototype_Covid.elf
+Finished building: default.size.stdout
+ 
+
+13:28:04 Build Finished. 0 errors, 0 warnings. (took 584ms)
+

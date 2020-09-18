@@ -1,0 +1,436 @@
+18:13:41 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6316	     20	   1636	   7972	   1f24	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+18:13:50 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6316	     20	   1636	   7972	   1f24	slider.elf
+Finished building: default.size.stdout
+ 
+18:16:21 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6320	     20	   1636	   7976	   1f28	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+18:17:34 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6320	     20	   1636	   7976	   1f28	slider.elf
+Finished building: default.size.stdout
+ 
+18:20:43 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6320	     20	   1636	   7976	   1f28	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+18:21:25 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6296	     20	   1636	   7952	   1f10	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+18:22:18 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6296	     20	   1636	   7952	   1f10	slider.elf
+Finished building: default.size.stdout
+Finished building: slider.bin
+ 
+ 
+Finished building: slider.list
+ 
+18:22:35 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6296	     20	   1636	   7952	   1f10	slider.elf
+Finished building: default.size.stdout
+ 
+18:25:41 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+18:27:05 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+18:28:41 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6404	     20	   1636	   8060	   1f7c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+18:30:21 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6500	     20	   1636	   8156	   1fdc	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:22:50 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:23:23 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:24:14 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:26:03 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:27:37 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:28:01 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:28:10 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+19:28:48 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:29:33 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:39:21 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:42:00 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6284	     20	   1636	   7940	   1f04	slider.elf
+Finished building: default.size.stdout
+Finished building: slider.bin
+ 
+ 
+Finished building: slider.list
+ 
+19:47:07 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6284	     20	   1636	   7940	   1f04	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:51:11 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6316	     20	   1636	   7972	   1f24	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+19:53:12 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     20	   1636	   7964	   1f1c	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+20:02:58 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6316	     20	   1636	   7972	   1f24	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 
+20:04:28 **** Incremental Build of configuration Debug for project slider ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "slider.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mmont/Documents/Universidad/DesafioCovid/Code/ProtorypeOfPrototype/slider/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="slider.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: slider.elf
+ 
+arm-none-eabi-objdump -h -S  slider.elf  > "slider.list"
+arm-none-eabi-objcopy  -O binary  slider.elf  "slider.bin"
+arm-none-eabi-size   slider.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6316	     20	   1636	   7972	   1f24	slider.elf
+Finished building: default.size.stdout
+ 
+Finished building: slider.bin
+ 
+Finished building: slider.list
+ 

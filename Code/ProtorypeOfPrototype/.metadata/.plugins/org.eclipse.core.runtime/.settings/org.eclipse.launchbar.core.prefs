@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Prototype_Covid.elf,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Prototype_Covid Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:slider Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Prototype_Covid\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Prototype_Covid\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:Prototype_Covid.elf/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Prototype_Covid.elf/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
